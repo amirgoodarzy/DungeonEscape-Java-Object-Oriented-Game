@@ -1,0 +1,28 @@
+DUNGEON ESCAPE -- EXPANDED EDITION  (Java 11+)
+================================================
+
+MAC:   Double-click RUN_MAC.command, or open Terminal inside this folder:
+       java -jar DungeonEscape_Playable.jar
+
+WIN:   Double-click RUN_WINDOWS.bat, or run:
+       java -jar DungeonEscape_Playable.jar
+
+LINUX: sh run_linux.sh
+
+NEW CAMPAIGN: Choose Easy, Normal or Hard. Explore 3 acts, 15 rooms.
+CLASSIC: Play the repaired original 4-room prototype.
+
+WASD / ARROWS  Move           SPACE  Melee attack
+E              Interact       1-8    Use/equip items
+Q              Whirlwind      F      Firebolt
+H              Heal           I      Inventory
+M              Campaign map   X      Drop a bag item
+P              Pause          R      Custom Rule Editor
+K              Quick save     ESC    Menu
+
+GOAL: In each act collect the north-room Sigil, gear up in the southern
+room, fight the eastern Boss. After act III, reach the golden portal.
+
+For details see README.md and USER_GUIDE.md.
+For rebuilding: bash BUILD_JAR.sh
+For tests:      bash RUN_TESTS.sh
